@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 0.8rem;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: black; */
+    overflow: none;
+   
+}
+.containeer{
+    width: 70%;
+    display: flex;
+    margin-left: 10px ;
+    position: relative;
+    left: 330px;
+    
+  
+}
+
+.left{
+    width: 30%;
+
+}
+.card{
+    background-color: white;
+   box-shadow: 4px 4px 4px 4px grey;
+}
+
+.right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.model{
+    width: 100%;
+}
+.model-name{
+    color: rgb(240 248 255);
+    margin-top: -59px;
+    font-size: 3rem;
+}
+.icon-text{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    
+
+}
+.contact ul li{
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 20px;
+    
+    
+}
+.contact ul{
+    list-style: none;
+}
+i{
+    color: teal;
+    display: inline;
+}
+.progress-bar{
+    background-color:rgb(176, 255, 176);
+    border-radius: 20px;
+    color: white;
+}
+
+
+.progress{
+    background-color: teal;
+    text-align: center;
+    border-radius: 20px;
+}
+.work{
+    display: flex;
+}
+.date{
+    color: teal     
+;
+}
+.right{
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: space-between;
+    position: relative;
+}
+.rightup{
+    padding: 10px;
+
+}
+p{
+ margin: 10px;
+ margin-bottom: 10px;
+ font-size: 1.4rem;
+}
+h4{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.3rem;
+
+}
+h2{
+    font-size: 1.8rem;
+}
+.Education{
+    position: absolute;
+    top: 671px;
+    left: 1px;
+    width: 100%;
+    /* border: 5px solid red; */
+}
+.work-experience{
+    position: absolute;
+}
